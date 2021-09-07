@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="order_placed">order_placed</string>
+    <string name="track_order">track_order</string>
+</resources>

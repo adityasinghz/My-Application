@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         tablayout=(TabLayout) findViewById(R.id.tablayout_id);
-        appBarLayout = (AppBarLayout) findViewById(R.id.appbarid);
         viewPager = (ViewPager) findViewById(R.id.viewpager_id);
         ViewPageAdapter adapter =new ViewPageAdapter(getSupportFragmentManager());
         //Adding Fragments
